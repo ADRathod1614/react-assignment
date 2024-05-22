@@ -17,22 +17,22 @@ const APP = () => {
             <div className={SIDEBAR_CLASS}>
                 
                 <ul className="menu">
-                    <li><a href="#"><span>🏠</span><span>Home</span></a></li>
-                    <li><a href="#"><span>🔍</span><span>Explore</span></a></li>
-                    <li><a href="#"><span>📚</span><span>Learn</span></a></li>
-                    <li><a href="#"><span>🏆</span><span>Achieve</span></a></li>
-                    <li><a href="#"><span>🛠️</span><span>Practice</span></a></li>
-                    <li><a href="#"><span>📁</span><span>Projects</span></a></li>
-                    <li><a href="#"><span>🚀</span><span>Career</span></a></li>
-                    <li><a href="#"><span>👥</span><span>Mentorship</span></a></li>
-                    <li><a href="#"><span>📝</span><span>Blogs</span></a></li>
-                    <li><a href="#"><span>🌐</span><span>Community</span></a></li>
+                    <li><a href="/"><span>🏠</span><span>Home</span></a></li>
+                    <li><a href="/"><span>🔍</span><span>Explore</span></a></li>
+                    <li><a href="/"><span>📚</span><span>Learn</span></a></li>
+                    <li><a href="/"><span>🏆</span><span>Achieve</span></a></li>
+                    <li><a href="/"><span>🛠️</span><span>Practice</span></a></li>
+                    <li><a href="/"><span>📁</span><span>Projects</span></a></li>
+                    <li><a href="/"><span>🚀</span><span>Career</span></a></li>
+                    <li><a href="/"><span>👥</span><span>Mentorship</span></a></li>
+                    <li><a href="/"><span>📝</span><span>Blogs</span></a></li>
+                    <li><a href="/"><span>🌐</span><span>Community</span></a></li>
                 </ul>
                 <div className="social-links">
-                    <a href="#"><img src="https://placehold.co/40" alt="Connect with us" /></a>
-                    <a href="#"><img src="https://placehold.co/40" alt="Connect with us" /></a>
-                    <a href="#"><img src="https://placehold.co/40" alt="Connect with us" /></a>
-                    <a href="#"><img src="https://placehold.co/40" alt="Connect with us" /></a>
+                    <a href="/"><img src="https://placehold.co/40" alt="Connect with us" /></a>
+                    <a href="/"><img src="https://placehold.co/40" alt="Connect with us" /></a>
+                    <a href="/"><img src="https://placehold.co/40" alt="Connect with us" /></a>
+                    <a href="/"><img src="https://placehold.co/40" alt="Connect with us" /></a>
                 </div>
             </div>
 
