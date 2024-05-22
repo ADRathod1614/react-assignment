@@ -41,7 +41,6 @@ const TW_CLASSES = {
   p4: 'p-4',
   p10: 'p-10',
   spaceX4: 'space-x-4',
-  spaceY4: 'space-y-4',
 }
 
 const Header = () => {
