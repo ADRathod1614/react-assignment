@@ -48,22 +48,18 @@ const Header = () => {
     <header
       className={`${TW_CLASSES.bgWhite} ${TW_CLASSES.shadow} ${TW_CLASSES.p4} ${TW_CLASSES.flex} ${TW_CLASSES.justifyBetween} ${TW_CLASSES.itemsCenter}`}>
       <div className={`${TW_CLASSES.flex} ${TW_CLASSES.itemsCenter} ${TW_CLASSES.spaceX4}`}>
-        <img
-          src="https://placehold.co/40x40"
-          alt="logo"
-          className={`${TW_CLASSES.w10} ${TW_CLASSES.h10}`}
-        />
+        <img src="https://placehold.co/40x40" alt='' className={`${TW_CLASSES.w10} ${TW_CLASSES.h10}`}/>
         <span className={`${TW_CLASSES.textXl} ${TW_CLASSES.fontBold} ${TW_CLASSES.textPurple600}`}>
           wiZe
         </span>
       </div>
       <div className={`${TW_CLASSES.flex} ${TW_CLASSES.itemsCenter} ${TW_CLASSES.spaceX4}`}>
         <button className={TW_CLASSES.textZinc600}>
-          <img src="https://placehold.co/24x24" alt="bell icon" />
+          <img src="https://placehold.co/24x24" alt=''/>
         </button>
         <button className={TW_CLASSES.textZinc600}>Account</button>
         <button className={TW_CLASSES.textZinc600}>
-          <img src="https://placehold.co/24x24" alt="menu icon" />
+          <img src="https://placehold.co/24x24" alt='' />
         </button>
       </div>
     </header>
