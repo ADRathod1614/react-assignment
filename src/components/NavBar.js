@@ -13,8 +13,14 @@ function NavBar() {
       <NavLink style={{ marginRight: "10px" }} to="/">
         Home
       </NavLink>
-      <NavLink style={{ marginRight: "10px" }} to="/movies">
-        Movies
+      <NavLink style={{ marginRight: "10px" }} to="/Learn">
+        Learn
+      </NavLink>
+      <NavLink style={{ marginRight: "10px" }} to="/Course">
+        Course
+      </NavLink>
+      <NavLink style={{ marginRight: "10px" }} to="/test">
+        test
       </NavLink>
     </div>
   );

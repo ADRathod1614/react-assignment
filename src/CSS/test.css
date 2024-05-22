@@ -1,0 +1,202 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.space-x-2 {
+    gap: 0.5rem;
+}
+
+.space-x-4 {
+    gap: 1rem;
+}
+
+.space-y-2 {
+    gap: 0.5rem;
+}
+
+.space-y-4 {
+    gap: 1rem;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-zinc-100 {
+    background-color: #f3f4f6;
+}
+
+.bg-purple-100 {
+    background-color: #e9d5ff;
+}
+
+.bg-purple-500 {
+    background-color: #7c3aed;
+}
+
+.text-zinc-500 {
+    color: #71717a;
+}
+
+.text-purple-600 {
+    color: #6b21a8;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.w-10 {
+    width: 2.5rem;
+}
+
+.h-10 {
+    height: 2.5rem;
+}
+
+.w-24 {
+    width: 6rem;
+}
+
+.h-24 {
+    height: 6rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.h-96 {
+    height: 24rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-purple-500 {
+    border-color: #7c3aed;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-10 {
+    padding: 2.5rem;
+}
+
+/* Header styles */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-logo img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6b21a8;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 16rem;
+    background-color: #e9d5ff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer button {
+    background-color: #7c3aed;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

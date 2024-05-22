@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
-import MoviesPage from "./MoviesPage";
-
+import Home from "./Home";
+import Learn from "./Learn";
+import Course from "./Course";
+import Test from './test';
 function App() {
   const [movies, setMovies] = useState([
     { id: 1, title: "A River Runs Through It" },
@@ -14,11 +16,17 @@ function App() {
     <div>
       <NavBar />
       <Switch>
-        <Route path="/movies">
-          <MoviesPage movies={movies} />
+        <Route path="/Learn">
+          <Learn movies={Learn} />
+        </Route>
+        <Route path="/Course">
+          <Course movies={Course} />
+        </Route>
+        <Route path="/test">
+          <Test movies={Test} />
         </Route>
         <Route exact path="/">
-          <div>Home</div>
+          <Home movies={movies} />
         </Route>
       </Switch>
     </div>
