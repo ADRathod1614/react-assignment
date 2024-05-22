@@ -45,7 +45,7 @@ const APP = () => {
                 <div className="content-grid">
                     <div className="card large-card">
                         <div className="card-header">
-                            <img src="https://placehold.co/100" alt="Course Image" className="course-image" />
+                            <img src="https://placehold.co/100" alt="" className="course-image" />
                             <div>
                                 <h2>Module: Data Science</h2>
                                 <p>Chapter: Supervised Learning & Applications</p>
